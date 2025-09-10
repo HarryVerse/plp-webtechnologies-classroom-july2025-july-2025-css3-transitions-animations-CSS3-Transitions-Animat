@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Superheroes Showcase</title>
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with title -->
+    <header>
+        <h1>Marvel Superheroes Showcase</h1>
+        <p>Explore the world of Marvel heroes with interactive animations!</p>
+    </header>
+
+    <!-- Main content section with hero cards -->
+    <main>
+        <section class="heroes-container">
+            <!-- Hero card for Spiderman -->
+            <div class="hero-card" id="spiderman">
+                <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/spider-man_2.png" alt="Spiderman" class="hero-image">
+                <h2>Spiderman</h2>
+                <p>Peter Parker, the friendly neighborhood hero with web-slinging abilities.</p>
+                <!-- Button to trigger animation -->
+                <button class="animate-btn" data-hero="spiderman">Animate Hero</button>
+            </div>
+
+            <!-- Hero card for Iron Man -->
+            <div class="hero-card" id="ironman">
+                <img src="https://static.wikia.nocookie.net/marvel/images/4/4a/Iron_Man_Armor_Model_01.png" alt="Iron Man" class="hero-image">
+                <h2>Iron Man</h2>
+                <p>Tony Stark, the genius billionaire playboy philanthropist in his armored suit.</p>
+                <!-- Button to trigger animation -->
+                <button class="animate-btn" data-hero="ironman">Animate Hero</button>
+            </div>
+
+            <!-- Hero card for Captain America -->
+            <div class="hero-card" id="captainamerica">
+                <img src="https://static.wikia.nocookie.net/marvel/images/5/56/Captain_America_Infobox.jpg" alt="Captain America" class="hero-image">
+                <h2>Captain America</h2>
+                <p>Steve Rogers, the super-soldier with unbreakable will and shield mastery.</p>
+                <!-- Button to trigger animation -->
+                <button class="animate-btn" data-hero="captainamerica">Animate Hero</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 Marvel Heroes Project</p>
+    </footer>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
